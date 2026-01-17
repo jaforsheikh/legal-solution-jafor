@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin: 0;
+  position: relative;
+}
+.logo_image {
+  width: 90px;
+}
+.logo_text {
+  color: #414040;
+  position: absolute;
+  top: 10;
+  left: 30px;
+}
+.nav_hero {
+  max-width: 1140px;
+  height: 60px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid rebeccapurple;
+}
+.nav_menu {
+  display: flex;
+  gap: 30px;
+}
+#header_navbar ul li a {
+  text-decoration: none;
+}
+#header_navbar ul li {
+  list-style: none;
+}
+.button_button {
+  color: aliceblue;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 10px 15px;
+  background-color: #b68c5a;
+  border-radius: 8px;
+  border: none;
+}
+/* hero section */
+#container {
+  max-width: 1140px;
+  margin: 0 auto;
+  background-image: url(images/banner.png);
+  height: 550px;
+  text-align: center;
+  justify-content: center;
+  color: aliceblue;
+}
+.hero_title {
+  padding-top: 130px;
+
+  text-align: center;
+}
+.hero_text {
+  padding: 10px 250px;
+}
+.search_option {
+  padding: 10px 100px 10px 10px;
+  border-radius: 8px;
+  border: none;
+}
+/* Card Section */
+#card {
+  max-width: 1140px;
+  padding: 70px 0;
+}
+#card .card_text_card {
+  text-align: center;
+  padding: 20px;
+  align-items: center;
+}
+.card_text_card > h1 {
+  font-size: 3rem;
+  font-weight: 800;
+}
+.card_text_card > p {
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 15px 190px;
+}
+#card .main_card {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  gap: 30px;
+}
+#card .card_one {
+  width: 370px;
+  height: 420px;
+  padding: 50px 70px;
+  text-align: center;
+  border: 1px solid rgb(209, 250, 250);
+  border-radius: 8px;
+  transition: all 0.5s ease-in-out;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.12);
+}
+#card .card_one:hover {
+  background-color: rgb(179, 254, 241);
+}
+.arrow_icon {
+  padding-top: 20px;
+}
+.card_title {
+  color: #414040;
+  font-size: 1.5rem;
+  padding: 10px;
+}
+.card_text {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 20px;
+}
+/* What Our Client */
+
+#our_client .title_section {
+  text-align: center;
+  padding: 20px;
+  align-items: center;
+}
+#our_client .our_client-title {
+  font-size: 1.8rem;
+  padding: 10px;
+  font-weight: 700;
+  color: #5b5b5b;
+}
+.our_client-text {
+  padding: 10px 150px;
+}
+.comment_section {
+  background-image: url(images/banner.png);
+  width: 1140px;
+  height: 500px;
+  opacity: 80%;
+  position: relative;
+}
+.name_title {
+  align-items: center;
+  text-align: center;
+  color: aliceblue;
+  padding-top: 130px;
+}
+.feedback_collection{
+  color: white;
+  text-align: center;
+  padding: 50px 170px;
+
+}
+/* Freequently Ask Question */
