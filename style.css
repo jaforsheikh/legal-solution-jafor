@@ -30,7 +30,6 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border: 2px solid rebeccapurple;
 }
 .nav_menu {
   display: flex;
